@@ -7,6 +7,21 @@ ul {
   margin: 0px;
 }
 
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContainer > main {
+  height: 100%;
+}
+
+.mainContainer > footer {
+  background-color: red;
+  padding: 10px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -69,7 +84,7 @@ ul {
   border: 1px solid blue;
 }
 
-.buscar > input{
+.buscar > input {
   outline: none;
   border: 0px;
 }
